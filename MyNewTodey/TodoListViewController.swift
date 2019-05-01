@@ -10,10 +10,14 @@ import UIKit
 
 class TodoListViewController: UITableViewController {
     var itemArray = ["Find Mike", "Buy Eggs", "Destroy Demonogormon"]
-    
+    let defaults = UserDefaults.standard
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        if let items  = defaults.array(forKey: "TodoListArray") as? [String]{
+            itemArray = items
+        }
         
     }
     
@@ -57,6 +61,7 @@ class TodoListViewController: UITableViewController {
             //What will happen once the user Clicks the add item button on our UIALert
             
             self.itemArray.append(textField.text!)
+            self.defaults.set(self.itemArray,forKey:"TodoListArray")
             self.tableView.reloadData()
         }
         alert.addTextField { (alertTextField) in
