@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8496A50C227D43F3007738EF /* CaategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496A50B227D43F3007738EF /* CaategoryViewController.swift */; };
 		84D354CB2278A131006F5F0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D354CA2278A131006F5F0C /* AppDelegate.swift */; };
 		84D354CD2278A131006F5F0C /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D354CC2278A131006F5F0C /* TodoListViewController.swift */; };
 		84D354D02278A131006F5F0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D354CE2278A131006F5F0C /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8496A50B227D43F3007738EF /* CaategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaategoryViewController.swift; sourceTree = "<group>"; };
 		84D354C72278A131006F5F0C /* MyNewTodey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNewTodey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D354CA2278A131006F5F0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D354CC2278A131006F5F0C /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		84D354DF227941B1006F5F0C /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				8496A50B227D43F3007738EF /* CaategoryViewController.swift */,
 				84D354CC2278A131006F5F0C /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8496A50C227D43F3007738EF /* CaategoryViewController.swift in Sources */,
 				84D354CD2278A131006F5F0C /* TodoListViewController.swift in Sources */,
 				84D355052279E1AA006F5F0C /* DataModel.xcdatamodeld in Sources */,
 				84D354DD2279416B006F5F0C /* ItemKeep.swift in Sources */,
